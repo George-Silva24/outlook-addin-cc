@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Confirmar CC</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <style>
+    body { font-family: Segoe UI, sans-serif; padding: 16px; text-align: center; }
+    button { margin: 8px; padding: 8px 20px; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <p>Este email obrigatório não está em CC.<br />Queres adicionar agora?</p>
+  <button onclick="responder('sim')">Sim</button>
+  <button onclick="responder('nao')">Não</button>
+
+  <script>
+    Office.onReady();
+
+    function responder(valor) {
+      Office.context.ui.messageParent(valor);
+    }
+  </script>
+</body>
+</html>
