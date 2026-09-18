@@ -17,7 +17,7 @@
   <SupportUrl DefaultValue="https://www.microsoft.com" />
 
   <AppDomains>
-    <AppDomain>https://SEU-DOMINIO-OU-GITHUB-PAGES-AQUI</AppDomain>
+    <AppDomain>https://george-silva24.github.io</AppDomain>
   </AppDomains>
 
   <Hosts>
@@ -33,7 +33,7 @@
   <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://SEU-DOMINIO-OU-GITHUB-PAGES-AQUI/functions.html" />
+        <SourceLocation DefaultValue="https://george-silva24.github.io/outlook-addin-cc/functions.html" />
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -72,8 +72,8 @@
     </Hosts>
     <Resources>
       <bt:Urls>
-        <bt:Url id="Functions.Url" DefaultValue="https://SEU-DOMINIO-OU-GITHUB-PAGES-AQUI/functions.html" />
-        <bt:Url id="Functions.Script.Url" DefaultValue="https://SEU-DOMINIO-OU-GITHUB-PAGES-AQUI/functions.js" />
+        <bt:Url id="Functions.Url" DefaultValue="https://george-silva24.github.io/outlook-addin-cc/functions.html" />
+        <bt:Url id="Functions.Script.Url" DefaultValue="https://george-silva24.github.io/outlook-addin-cc/functions.js" />
       </bt:Urls>
     </Resources>
   </VersionOverrides>
