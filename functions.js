@@ -1,7 +1,7 @@
 /*
   ALTERA AQUI: o(s) email(s) que queres garantir que ficam em CC.
 */
-const EMAIL_OBRIGATORIO = "exemplo@empresa.com";
+const EMAIL_OBRIGATORIO = "quote@rcsangola.com";
 
 Office.onReady(() => {
   // Necessário para o runtime de eventos, mesmo sem UI.
@@ -40,7 +40,7 @@ function checkCC(event) {
 
     // Abre uma caixa de diálogo a perguntar se quer adicionar o email.
     Office.context.ui.displayDialogAsync(
-      "https://SEU-DOMINIO-OU-GITHUB-PAGES-AQUI/dialog.html",
+      "https://george-silva24.github.io/outlook-addin-cc/dialog.html",
       { height: 25, width: 25, promptBeforeOpen: false },
       (asyncResult) => {
         if (asyncResult.status !== Office.AsyncResultStatus.Succeeded) {
